@@ -1,0 +1,12 @@
+<main class="articles">
+    {{#each articles}}
+    <div class="articles_content">
+        <img src="{{photo}}" class="articles_photo" id="{{id}}">
+        <h1 class="articles_name">{{name}}</h1>
+        <p class="articles_description">{{description}}</p>
+        <div>
+            <button class="articles_button">Read all</button>
+        </div>
+    </div>
+    {{/each}}
+</main>
