@@ -61,7 +61,7 @@
    }
    @layer variant {
       .button_primary {
-   color: var(--color-black);
+   color: var(--color-white);
     background-color: var(--color-primary);
       }
       .button_secondary {
